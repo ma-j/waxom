@@ -1,0 +1,80 @@
+header{
+    background-image: url(./assets/img/Fichier\ 3.png);
+    background-size: 100%;
+    width: auto;
+    height:500px;
+    margin: none;
+}
+#slider{
+ }
+
+main{
+    background-color: bisque;
+    width: auto;
+    height:1000px;
+}
+#domaines{
+    width: 95%;
+    height: 100px;
+    background-color: chocolate;
+}
+
+#slogan{
+    width: 95%;
+    height: 100px;
+    background-color: darkcyan;
+}
+
+#theme{
+    width: 95%;
+    height: 100px;
+    background-color: darkgoldenrod;
+}
+
+#projets{
+    width: 95%;
+    height: 100px;
+    background-color: purple;
+}
+
+#video{
+    width: 95%;
+    height: 100px;
+    background-color: pink;
+}
+
+#mobile{
+    width: 95%;
+    height: 100px;
+    background-color:greenyellow;
+}
+
+#compteurs{
+    width: 95%;
+    height: 100px;
+    background-color: hotpink;
+}
+
+#posts{
+    width: 95%;
+    height: 100px;
+    background-color: mediumpurple;
+}
+
+#logos{
+    width: 95%;
+    height: 100px;
+    background-color: palevioletred;
+}
+#com{
+    width: 95%;
+    height: 100px;
+    background-color: brown;
+}
+
+footer{
+    width: auto;
+    height: 50px;
+    background-color: cadetblue;
+}
+
