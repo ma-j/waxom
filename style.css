@@ -1,12 +1,28 @@
 header{
     background-image: url(./assets/img/Fichier\ 3.png);
     background-size: 100%;
+    background-position: top;
     width: auto;
     height:500px;
-    margin: none;
+    margin-top: none;
 }
 #slider{
+    height: 500px;
+        
  }
+#menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: moccasin;
+}
+#beige{
+    color: peru;
+}
+
 
 main{
     background-color: bisque;
