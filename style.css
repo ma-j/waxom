@@ -1,19 +1,27 @@
+
 header{
     background-image: url(./assets/img/Fichier\ 3.png);
-    background-size: 100%;
-    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
     width: auto;
-    height:500px;
-    margin-top: none;
+    height:40vh;
 }
 #slider{
-    height: 500px;
-        
- }
-#menu{
+    width: 100%;
+}
+nav{
+    align-items: center;
     display: flex;
+    width: 80%;  
+    margin: auto; 
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    list-style: none; 
     justify-content: space-around;
-    list-style: none;
+    width: 100%;
 }
 a{
     text-decoration: none;
@@ -26,7 +34,8 @@ a{
 
 main{
     background-color: bisque;
-    width: auto;
+    width: 80%;
+    margin: auto;
     height:1000px;
 }
 #domaines{
