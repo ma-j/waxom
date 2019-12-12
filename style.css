@@ -30,8 +30,12 @@ a{
 #beige{
     color: peru;
 }
-
-
+i{
+    color: whitesmoke;
+}
+i:hover{
+    color: tomato;
+}
 main{
     background-color: bisque;
     width: 80%;
