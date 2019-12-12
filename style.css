@@ -1,11 +1,15 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
     background-image: url(./assets/img/Fichier\ 3.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     width: auto;
-    height:50vh;
+    height:45vh;
 }
 #slider{
     width: 100%;
@@ -39,30 +43,67 @@ i:hover{
 #chevron{
     display: flex;
     justify-content: space-between;
-    height: 50%;
     align-items: center;
-   z-index: 0;
-}
-h2{
-    text-align: center;
-    z-index: 1;
-    color: white;
 }
 h1{
     text-align: center;
-    color: white;
-    
+    color: white;   
+}
+#unique{
+    font-size: 250%;
 }
 p{
     text-align: center;
     color: white;
 }
+button{
+    line-height: 3;
+    padding: 0 20px;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    font-style: oblique;
+    border-radius: 10px;
+    background-color: bisque;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-top: 40px;
+}
+button:hover{
+    background-color: orange;
+}
+#cercles{
+ background: peachpuff;
+ border-radius: 50%;
+ width: 8px;
+ height: 8px;
+ }
+ #cercles{
+    background: peachpuff;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    }
+#rond{
+    border: 2px solid rgb(238, 142, 45);
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+}
+#puces{
+    width:100px ;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 360px;
+    margin-top: 40px;
 }
 main{
     background-color: bisque;
     width: 80%;
     margin: auto;
     height:1000px;
+    
 }
 #domaines{
     width: 95%;
