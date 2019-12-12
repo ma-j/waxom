@@ -5,7 +5,7 @@ header{
     background-size: cover;
     display: flex;
     width: auto;
-    height:40vh;
+    height:50vh;
 }
 #slider{
     width: 100%;
@@ -35,6 +35,28 @@ i{
 }
 i:hover{
     color: tomato;
+}
+#chevron{
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    align-items: center;
+   z-index: 0;
+}
+h2{
+    text-align: center;
+    z-index: 1;
+    color: white;
+}
+h1{
+    text-align: center;
+    color: white;
+    
+}
+p{
+    text-align: center;
+    color: white;
+}
 }
 main{
     background-color: bisque;
