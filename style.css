@@ -95,18 +95,16 @@ button:hover{
     width:100px ;
     display: flex;
     justify-content: space-between;
-    margin-left: 360px;
+    margin-left: 470px;
     margin-top: 40px;
 }
 main{
-
-    width: 80%;
+    width: 100%;
     margin: auto;
     height:1000px;
-    
 }
 #domaines{
-    padding-top: 20px;
+    padding-top: 40px;
     width: 95%;
     display: flex;
     justify-content: space-around;
@@ -145,20 +143,78 @@ main{
     color:grey;
 }
 #separateur1{
-    color: chocolate;
+    background: chocolate;
+    border-radius: 30%;
+    width: 80px;
+    height: 5px;
+    margin-left: 30px;
 }
 #slogan{
+    padding-top: 40px;
     width: 95%;
-    height: 100px;
-    background-color: darkcyan;
+    height: 431px;
 }
-
+#slogan h1{
+    color: black;
+}
+#slogan p{
+    color: grey;
+}
+#photos{
+    position: relative;
+}
+img.superpose{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+/* photo de gauche avec le telephone */
+#photo1{
+    z-index: 10;
+    position: absolute;
+    top: 72px;
+    left: 110px;
+}
+/* paysage image centrale */
+#photo2{
+    z-index:11; 
+    position: absolute;
+    left: 300px;
+}
+#photo3{
+   z-index:9;
+   position: absolute;
+   left: 460px;
+   top: 72px;
+}
 #theme{
-    width: 95%;
-    height: 100px;
-    background-color: darkgoldenrod;
+   background-color: rgb(44, 26, 2);
+   background-size: cover;
+   height: 140px;
 }
-
+h1 span{
+    color: grey;
+}
+#wp{
+    margin-right: 400px;
+}
+#wptheme{
+    color: rgb(87, 66, 54);
+    margin-right: 470px;
+}
+.bouton a{
+    display: block;
+    width: 100px;
+    line-height: 35px;
+    border-radius: 20%;
+    text-align: center;
+    vertical-align:middle;
+    background-color: rosybrown;
+    color: rgb(44, 26, 2);
+    position: absolute;
+    left: 700px;
+    font-style: oblique;
+}
 #projets{
     width: 95%;
     height: 100px;
