@@ -99,18 +99,54 @@ button:hover{
     margin-top: 40px;
 }
 main{
-    background-color: bisque;
+
     width: 80%;
     margin: auto;
     height:1000px;
     
 }
 #domaines{
+    padding-top: 20px;
     width: 95%;
-    height: 100px;
-    background-color: chocolate;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
 }
-
+.domaine1{
+    text-align: center;
+}
+.domaine1 i{
+    color:black;
+}
+.domaine1 h2{
+    font-size: 20px;
+}
+.domaine1 p{
+    color: grey;
+}
+.separateur{
+    background: grey;
+    border-radius: 30%;
+    width: 80px;
+    height: 5px;
+    margin-left: 30px;
+}
+#domaine2{
+    text-align: center;
+}
+#domaine2 i{
+    color: chocolate;
+}
+#domaine2 h2{
+    font-size: 20px;
+    color: chocolate;
+}
+#domaine2 p{
+    color:grey;
+}
+#separateur1{
+    color: chocolate;
+}
 #slogan{
     width: 95%;
     height: 100px;
