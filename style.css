@@ -246,9 +246,21 @@ h1 span{
 }
 
 #logos{
-    width: 95%;
-    height: 100px;
-    background-color: palevioletred;
+    background-image: url(./assets/img/background\ partner.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    width: auto;
+    height:120vh;
+}
+#stamps{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 40px;
+    
 }
 #com{
     width: 95%;
