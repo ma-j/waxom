@@ -227,13 +227,24 @@ h1 span{
 }
 #projects{
     width: 50%;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
     color: black;
 }
 #projects ul{
     list-style-type: none;
+    
+ }
+ #beige2{
+     color: peru;
+     border: 1px solid brown;
+     background-color: brown;
+ }
+.suite{
+    color: black;
+    border: 1px solid black;
 }
-#projects ul li
+
 #video{
     width: 95%;
     height: 100px;
