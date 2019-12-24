@@ -236,27 +236,25 @@ h1 span{
     
  }
  #beige2{
-     color: peru;
-     border: 1px solid brown;
-     background-color: brown;
+    color: peru;
+    border: 1px solid brown;
+    background-color: brown;
  }
 .suite{
     color: black;
     border: 1px solid black;
 }
 .rang1{
-    
+    margin-top: 30px;
     display: flex;
-    width: 90%;
-    margin: auto;
+    width: 100%;
+    justify-content: center;
 }
 .rang1 figcaption h2{
     padding-top: 10px;
     color: #998675;
 }
-.rang1 figcaption p{
-    margin-right: 230px;
-}
+    
 #un{
     height: auto;
 }
@@ -264,9 +262,10 @@ h1 span{
     
 }
 .rang2{
+    margin-top: 30px;
     display: flex;
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    justify-content: center;
 }
 #video{
     width: 95%;
