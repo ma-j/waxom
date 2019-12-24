@@ -244,7 +244,30 @@ h1 span{
     color: black;
     border: 1px solid black;
 }
-
+.rang1{
+    
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.rang1 figcaption h2{
+    padding-top: 10px;
+    color: #998675;
+}
+.rang1 figcaption p{
+    margin-right: 230px;
+}
+#un{
+    height: auto;
+}
+#deux{
+    
+}
+.rang2{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
 #video{
     width: 95%;
     height: 100px;
